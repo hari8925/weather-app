@@ -33,7 +33,7 @@ const SearchWeather = () => {
     } else if (data.weather[0].main == "Drizzle") {
       emoji = "fa-cloud-rain";
     } else if (data.weather[0].main == "Rain") {
-      emoji = "fa-cloud-shower-heavy";
+      emoji = "fa-cloud-showers-heavy";
     } else if (data.weather[0].main == "Snow") {
       emoji = "fa-snow-flake";
     } else {
